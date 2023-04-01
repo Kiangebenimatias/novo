@@ -5,7 +5,7 @@ function entrar() {
         Swal.fire({
             title: 'Atenção!',
             text: 'Preecha bem todos os campos',
-            icon: 'infor',
+            icon: 'error',
             confirmButtonText: 'Repetir'
           })
         usuario.style.background = " rgb(255, 71, 71)"
@@ -14,7 +14,7 @@ function entrar() {
         Swal.fire({
             title: 'Ben-Vindo',
             text: 'EssênciMessanger1.0',
-            icon: 'sussece',
+            icon: 'success',
             confirmButtonText: 'Confirma'
           })
     }
@@ -26,7 +26,7 @@ function entrar1() {
         Swal.fire({
             title: 'Atenção!',
             text: 'Preecha bem todos os campos',
-            icon: 'infor',
+            icon: 'error',
             confirmButtonText: 'Repetir'
           })
         nome.style.background = " rgb(255, 71, 71)"
@@ -35,7 +35,7 @@ function entrar1() {
         Swal.fire({
             title: 'Ben-Vindo',
             text: 'EssênciMessanger1.0',
-            icon: 'sussece',
+            icon: 'success',
             confirmButtonText: 'Confirma'
           })
     }

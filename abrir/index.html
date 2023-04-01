@@ -5,16 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <link rel="shortcut icon" href="abrirconta/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../imagens/favicon-32x32.png" type="image/x-icon">
     <title>Abrirconta</title>
     <link rel="stylesheet" href="abrirconta.css">
 </head>
 <body>
-    <header>
-        Abertura de Conta!
+    <header>        
+        <h2>Abertura de Conta!</h2>
     </header>
+    <nav>
+        <a href="#">Negociações</a>
+        <a href="#">EssênciCompanny</a>
+        <a href="#">Participantes</a>
+        <a href="#">Ajuda</a>
+        <a href="../index.html">Entrar</a>
+    </nav>
     <section>
-        <div id="abrir0"></div>
         <div id="abrir1">
             <p>Nome:</p> 
             <input type="text" name="txtabrirnome" id="txtabrirnome">
@@ -28,28 +34,23 @@
             <input type="email" name="txtabriremail" id="txtabriremail">
             <p>Morada</p> 
             <input type="text" name="txtabrirmorada" id="txtabrirmorada">
-        </div>
-        <div id="abrir2">
             <p>Palavra-Passe:</p>
             <input type="password" name="txtabrirpalavrapasse1" id="txtabrirpalavrapasse1">
             <p>Palavra-Passe:Repita</p>
             <input type="password" name="txtabrirpalavrapasse2" id="txtabrirpalavrapasse2">
             <p>Codigo de 16 digitos:</p>
             <input type="tel" name="txtabrircodigo" id="txtabrircodigo">
-        </div>
-        <div id="abrir3">Dados Pessoais
-
-        </div>
-        <div id="abrir4">Segurança
-
-        </div>
-        <div id="abrir5">
-            <p>Atenção!</p>
-            <p><strong>Depois de preecher todos os campos clique no botão abaixo</strong></p>
+            <p></p>
             <input id="criar" type="button" value="Criar" onclick="cria()">
-            
         </div>
-
+        <article>
+            <h2>Atenção</h2>
+            <p><strong>Este aplicativo web foi criada para atender as nessecidades educacional, desde as escolas privadas e publicas, podem aderir os serviços
+                que a EssênciMassanger ofereci, serviços pago, mas com preços acensiveis, para mais informações sobre adquirir os nossos produtos clique em Negociações 
+                esta logo acima !
+            </strong></p>
+        </article>
+        <footer>Site criado por &copy; Kiangebeni Kaleba Matias</footer>
     </section>
     <script src="sweetalert2.all.min.js"></script>
     <script src="abrirconta.js"></script>
