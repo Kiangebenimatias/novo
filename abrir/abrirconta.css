@@ -8,6 +8,8 @@ header{
     font: 28pt caption;
     color: rgb(0, 255, 251);
     padding: 10px;
+    max-width: 1500px;
+    min-width: 500px;
 
 }
 header h2{
@@ -17,6 +19,8 @@ header h2{
 nav{
     background-color: rgb(1, 1, 123);
     padding: 15px;
+    max-width: 1200px;
+    min-width: 500px;
 
 }
 a{
@@ -31,7 +35,7 @@ a:hover{
 }
 section{
     max-width: 800px;
-    min-width: 100px;
+    min-width: 320px;
     margin: auto;
     padding: 100px;
     background-color: rgba(0, 255, 255, 0.508);
