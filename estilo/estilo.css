@@ -54,9 +54,6 @@ main > div{
     border-radius: 5px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.332);
 }
-div:hover{
-    transform: scaleX(1.2);
-}
 main > p{
     color: blue;
     background-color: rgb(0, 217, 255);

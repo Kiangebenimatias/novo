@@ -1,0 +1,131 @@
+body{
+    background: fixed;
+    background-image: url('../imagens/cavalos2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+   
+}
+header{
+    text-align: center;
+    font: 28pt caption;
+    color: rgb(0, 136, 255);
+}
+header:hover{
+    color: blue;
+}
+section{
+    max-width: 800px;
+    min-width: 100px;
+    margin: auto;
+    background-color: rgba(0, 255, 255, 0.508);
+    border-radius: 30px;
+    box-shadow: 30px 30px 40px rgba(0, 0, 0, 0.715);
+}
+div#abrir0{
+    background-color: rgba(0, 255, 255, 0.616);
+    width: 500px;
+    height: 10px;
+    margin: auto;
+}
+div#abrir1{
+    color: whitesmoke;
+    text-align: center;
+    width: 300px;
+    height: 550px;
+    margin-left: 80px;
+    margin-top: 10px;
+    background-color: rgba(0, 145, 255, 0.244);
+    border-radius: 30px;
+    box-shadow: 30px 30px 40px rgba(0, 0, 0, 0.715);
+}
+div#abrir2{
+    color: whitesmoke;
+    text-align: center;
+    width: 290px;
+    height: 300px;
+    margin-left: 440px;
+    margin-top: -550px;
+    background-color: rgba(0, 145, 255, 0.244);
+    border-radius: 30px;
+    box-shadow: 30px 30px 40px rgba(0, 0, 0, 0.715);
+}
+div#abrir3{
+    text-align: center;
+    margin-left: 135px;
+    margin-top: 180px;
+    font: 18pt caption;
+    color: whitesmoke;
+    width: 180px;
+    height: 27px;
+    background-color: rgba(0, 0, 255, 0.74);
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.715);
+}
+div#abrir4{
+    text-align: center;
+    margin-left: 480px;
+    margin-top: -255px;
+    font: 18pt caption;
+    color: whitesmoke;
+    width: 200px;
+    height: 27px;
+    background-color: rgba(8, 0, 255, 0.769);
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.715);
+}
+div#abrir5{
+    font: 19pt caption;
+    color: whitesmoke;
+    text-align: center;
+    width: 350px;
+    height: 200px;
+    margin-left: 420px;
+    margin-top: 45px;
+    background-color: rgba(0, 145, 255, 0.244);
+    border-radius: 30px;
+    box-shadow: 30px 30px 40px rgba(0, 0, 0, 0.715);
+}
+#abrir1:hover{
+    background-color: rgb(47, 255, 179);
+    color: blue;
+    margin-right: auto;
+}
+#abrir3:hover{
+    background-color: rgb(47, 255, 179);
+    color: blue;
+}
+#abrir4:hover{
+    background-color: rgba(0, 145, 255, 0.244);
+    color: blue;
+    font: bolder 25px caption;
+    
+}
+#abrir5:hover{
+    background-color: rgb(47, 255, 179);
+    color: blue;
+}
+input{
+    width: 200px;
+    height: 22px;
+    margin: auto;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.715);
+}
+input:hover{
+    background-color: rgb(47, 255, 179);
+}
+input#criar{
+    width: 80px;
+    height: 50px;
+    background-color: rgba(0, 34, 255, 0.865);
+    color: rgb(255, 255, 255);
+    font: 15.5pt caption;
+    text-align: center;
+}
+#criar:hover{
+    background-color: rgb(47, 255, 54);
+    color: blue;
+}
