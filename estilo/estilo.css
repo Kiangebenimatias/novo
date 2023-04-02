@@ -2,17 +2,20 @@ body{
     background-color: rgb(0, 217, 255);
 }
 header{
+    margin: auto;
     background-color: rgb(0, 217, 255);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.315);
     padding: 20px;
 }
 header > h1{
+    margin: auto;
     color: blue;
     text-align: center;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.33);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.315);
 }
 nav{
+    margin: auto;
     background-image: linear-gradient(to right, blue, transparent);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.315);
     padding: 10px;
@@ -36,7 +39,7 @@ a:hover{
 main{
     background-color: white;
     max-width: 700px;
-    min-width: 50px;
+    min-width: 100px;
     margin: auto;
     padding: 40px;
     border-bottom-left-radius: 10px;
@@ -71,10 +74,13 @@ img{
 input{
     text-align: center;
     padding: 10px;
+    margin: 2px;
+    border: 2px solid black;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.329);
 }
 footer{
+    margin: auto;
     text-align: center;
     color: rgb(0, 0, 90);
     background-image: linear-gradient(to right, blue, transparent);

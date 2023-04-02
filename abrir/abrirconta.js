@@ -33,5 +33,6 @@ function cria() {
             icon: 'success',
             confirmButtonText: 'Confirmar!'
           })
+            window.location.href = "../index.html" 
     }
 }
