@@ -1,98 +1,28 @@
-body{
-    background: fixed;
-    background-image: url('abrirconta/cavalos2.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
 }
 h1{
-    font: italic 35px caption;
-    color: rgb(0, 77, 193);
-    text-align: center;
-}
-div{
-    background-color: rgba(0, 251, 255, 0.73);
-    color: rgb(252, 254, 255);
-    font: italic bolder 18px caption;
-    width: 265px;
-    height: 110px;
-    border-radius: 20px;
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.595);
-    text-align: center;
-}
-div:hover{
-    
-    background: fixed;
-    transform: scale(1.1,2);
-}
-#menu{
     color: blue;
-    font: italic 25px caption;
-    margin: auto;
-    margin-top: auto;
-    width: 400px;
-    height: 90px;
+    font: bolder 30pt caption;
 }
-.videos{
-    margin-right: auto;
-}
-.contacto{
-    margin-left: 270px;
-    margin-top: -130px;    
-}
-.escola{
-    margin-left: 540px;
-    margin-top: -130px;   
-}
-.empresa{
-    margin-left: 810px;
-    margin-top: -130px;
-}
-.curso{
-    margin-left: 1080px;
-    margin-top: -130px;
-}
-#esm1{
-    width: 62px;
-    height: 52px;
-    padding: auto;
-    border-radius: 30px;
-    margin-top: -300px;
+nav{
+    background-color: blue;
     text-align: center;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.427);
 }
-#esm2{
-    background: fixed;
-    color: rgb(0, 0, 202);
-    font: italic bolder 20px caption;
-    width: 62px;
-    height: 52px;
-    padding: auto;
-    border-radius: 30px;
-    text-align: center;
+a{
+    color: white;
+    text-decoration: none;
+
 }
-input{
-    font: 20px caption;
-    text-align: center;
-    width: 190px;
-    height: 35px;
-    border-radius: 8px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.645);
-}
-#btnmenu{
-    width: auto;
-    height: auto;
-    background: fixed;
-    color: blue;
-}
-#btnperfil{
-    width: auto;
-    height: auto;
-    background: fixed;
-    color: blue;
-}
-#btnconversar{
-    width: auto;
-    height: auto;
-    background: fixed;
-    color: blue;
+a:hover{
+    background-color: aqua;
+    transform: scale(1.2);
 }
